@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ellen's HTML Practice</title>
+  </head>
+  <body> 
+  <h1>Advanced Work: Tuesday, September 3 at 3pm</h1>
+  <h2>Part III. Tables (Continuation)</h2>
+  <h3>The Artists' Table</h3>
+  <table border="15">
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col">Home Starter Hosting</th>
+        <th scope="col">Premium Business Hosting</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Disk Space</th>
+        <td>250mb</td>
+        <td>lgb</td>
+      </tr>
+      <tr>
+        <th scope="row">Mona Lisa</th>
+        <td>Da Vinci</td>
+        <td>The Louve, Paris</td>
+      </tr>
+      <tr>
+        <td scope="row">Starry Night</td>
+        <td>Van Gogh</td>
+        <td>MOMA, NYC</td>
+      </tr>
+      <tr>
+        <td scope="row">The Scream</td>
+        <td>Munch</td>
+        <td>National Gallery, Oslo</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td></td>
+      <td colspan="2">Signup now for a 10% discount!</td>
+    </tfoot>
+  </table>
+
+  <!-- Summary of Tables(Advanced): you can make cells of a table span more than one row or column using the rowspan and colspan attribute;  Long tables can be split into <thead><tbody> and <tfoot> -->
+
+  <!-- Forms (Advanced) -->
+   <!-- Forms Intro: how to collect information from visitors, different kinds of form controls, new html5 form controls -->
+  <h1>Advanced Work</h1>
+  <p>A form refers to different elements that alllow you to collect information from visitors to your website.</p>
+  <h2>Forms Control</h2>
+  <ol>
+    <li>Adding Text</li>
+      <ul>
+        <li>Single-Line Text Input</li>
+        <li>Password Input</li>
+        <li>Multi-line Text Area Input</li>
+      </ul>
+    <li>Making Choices</li>
+      <ul>
+        <li>Radio buttons</li>
+        <li>Checkboxes</li>
+        <li>Drop-down boxes</li>
+      </ul>
+    <li>Submitting Forms</li>
+      <ul>
+        <li>Submit buttons</li>
+        <li>Image Buttons</li>
+      </ul>
+    <li>Uploading Files</li>
+  </ol>
+  <h3>How Forms Work</h3>
+  <ol>
+    <li>A user fills in a form then presses a button to submit the info to server.</li>
+    <li>The NAME of each FORM CONTROL is sent to the server along with the VALUE the user enters or selects.</li>
+    <li>The server processes the info, & may store it in a database.</li>
+    <li>Server creates a new page to sent back to browser based on info received.</li>
+  </ol>
+  <p>Note:  A form may have several form controls, each gathering different information.  Name=Value</p>
+  <h2>Form Structure</h2>
+  <h3>FORM</h3>
+  <ol>
+      <li>Form controls live inside a 'form' element.</li>
+      <li>This element should always carry the action attribute and will usually have a method and id attribute too.</li>
+  </ol>
+  <h3>ACTION</h3> 
+  <ol>
+    <li>Every 'form' element requires an action attribute.</li>
+    <li>Its value is in the URL fo the page on the server that will receive the information in the form when it is submitted.</li>
+  </ol>
+  <h3>METHOD</h3>
+  <p>Forms can be sent using one of two methods: get or post.  
+    <ol>
+      <li>With the get method, the values from the form are added to the end of the URL specified in the action attribute.  The get method is ideal for:</li>
+      <ul>
+          <li>short forms/search boxes</li>
+          <li>when you are just retrieving data from the web server (not sending information that should be added to or deleted from a database.)</li>
+      </ul>
+      <li>With the post method, the values are sent in what are known as HTPP headers.  You should use the post method if your form:
+          <ul>
+              <li>allows users to upload a Files</li>
+              <li>is very long</li>
+              <li>constains sensitive data (passwords, etc)</li>
+              <li>adds info to, or deletes info from a database</li>
+          </ul>
+      </li>
+    </ol> 
+  <p>Note: If the method attribute is not used, the form data will be sent using the get method.</p>
+  <h3>ID</h3>
+
+     <!-- Forms Summary: use form to collect info from visitors, this form lives inside a <form> element; information from a form s sent in name/value pairs; each form control is given a name, and the text the user types inr or the values of the options they select are sent to the server -->
+  <h3>Form Example</h3>
+  <form action="http:/example.com/review.php" method="get">
+    <fieldset>
+      <legend>Your Details:</legend>
+      <label>Name:</label>
+      <br>
+      <label>Email:
+          <input type="email">
+      </label>
+      <br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Your Review:</legend>
+      <p>
+          <label for="hear-about">How did you hear about us?</label>
+          <select name="referrer" id="hear-about">
+              <option value="google">Google</option>
+              <option value="friend">Friend</option>
+              <option value="TV ad">TV ad</option>
+          </select>
+      </p>
+      <p>Would you visit again?</p>
+          <br>
+          <label> 
+            <input type="radio" name="rating" value="yes">
+          </label>
+    </fieldset>
+
+  </form>
+</html>

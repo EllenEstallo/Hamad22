@@ -1,0 +1,75 @@
+#top-box {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+  position: sticky;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#container {
+  background-color: lightblue;
+  position: sticky;
+  height: 1500px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#side-boxes {
+  background-color: maroon;
+  color: yellow;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  width: 300px;
+  height: 1500px;
+}
+#content-box {
+  background-color: green;
+  position: sticky;
+  height: 1500px;
+  margin-left: 350px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.bigBox1 {
+  height: 300px;
+  width: 200px;
+  background-color: bisque;
+  /* pad: 20px; */
+}
+.bigBox2 {
+  height: 300px;
+  width: 200px;
+  background-color: yellow;
+}
+
+.bigBox3 {
+  height: 300px;
+  width: 200px;
+  background-color: bisque;
+}
+.bigBox4 {
+  height: 300px;
+  width: 200px;
+  background-color: yellow;
+}
+
+.bigBox5 {
+  height: 300px;
+  width: 200px;
+  background-color: bisque;
+}
+.bigBox6 {
+  height: 300px;
+  width: 200px;
+  background-color: yellow;
+}

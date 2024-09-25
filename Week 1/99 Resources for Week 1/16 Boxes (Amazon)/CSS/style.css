@@ -1,0 +1,54 @@
+/* h2 { */
+/* color: aqua; */
+/* } */
+#main {
+  display: inline-flex;
+  padding-left: 100px;
+  background-color: #222F3E; 
+}
+#Box1 {
+  height: 100px;
+  width: 300px;
+  /* background-color: red; */
+  margin: 10px;
+}
+
+#Box2 {
+    height: 100px;
+  width: 300px;
+  /* background-color: rgb(30, 0, 255); */
+  margin: 10px;
+}
+
+#Box3 {
+    height: 100px;
+  width: 300px;
+  /* background-color: rgb(0, 255, 213); */
+  margin: 10px;
+}
+
+#Box4 {
+    height: 100px;
+  width: 300px;
+  /* background-color: rgb(0, 255, 213); */
+  margin: 10px;
+}
+
+/* img { */
+/* height: 300px; */
+/* width: 300px; */
+/* } */
+
+#brand {
+  color: #DDDDDD;
+}
+
+#newinfo {
+  color: #FFFFFF;
+}
+
+/* #bottominfo { */
+/* color: #e3e1e0; */
+/* display: inline-flex; */
+/* padding-left: 110px; */
+/* background-color: black; 

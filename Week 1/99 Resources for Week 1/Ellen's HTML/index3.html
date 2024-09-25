@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<img>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>time</li>
+        <li>place</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>food</li>
+        <li>clothing</li>
+    </ol>
+    <h3>Definition</h3>
+    <dt>computer
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex blanditiis cumque excepturi voluptates quae eveniet a aliquid quibusdam, sed recusandae dicta, beatae corrupti sapiente natus aut? Quidem eligendi totam ipsum.    
+            </dd>
+    </dt>
+    <br>
+    <a href="newindex.html">Link to a previously created page.</a>
+    <br><br>
+    <img src="https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100"></img>
+    <br><br>
+    <table border="15">
+        <thead> 
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        <thead>
+        <tbody>
+            <tr>
+                <td>Ellen</td> 
+                <td>US</td>
+        <tbody>
+    </table>
+    <br>
+    <table border="15">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>Class</td>
+                <td rowspan="3">MVM School</td>
+            </tr>
+            <tr>
+                <td>Radha</td>
+                <td>10 </td>
+                <!-- <td>" " </td> -->
+            </tr>
+            <tr>
+                <td>Ankur</td>
+                <td>11</td>
+                <!-- <td>" "</td> -->
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table border="15">
+        <thead>
+        </thead>
+            <tr>
+                <td rowspan="2">State</td>
+                <td colspan="2">Fasting</td>
+                <!-- <td>Fasting</td> -->
+                <td>After</td>
+            </tr>
+            <tr>
+                <!-- <td>State</td> -->
+                <td>Min</td>
+                <td>Max</td>
+                <td>2 hours</td>
+            </tr>
+                <td>1</td>
+                <td>1</td><td>1</td><td>1</td>
+            </tr>
+        </tr>
+        <td>1</td>
+        <td>1</td><td>1</td><td>1</td>
+        </tr>
+        </tbody>
+        
+    </table>
+    <br>
+    <!-- 
+    ---
+    Lesson 1 GETTING TEXT INPUT using the 
+        label tag and the 
+        self-closing input tag with attributes type="text" and placeholder="", closed as />) 
+        ---
+        -->
+    <form>
+        <label>Name: </label>
+        <input type="text" placeholder="Your Name"/>
+    </form>
+    <br>
+    <!-- 
+    ---
+    Lesson 2 USE OF FIELDSET IN GETTING TEXT INPUT 
+        the legend tag
+        label tag and the 
+        the self-closing input tag with attributes type="text" and placeholder="", closed as />)
+        the password tag and the 
+        self-closing input tag with attributes type="text" and placeholder="", closed as />)
+         -->
+     <fieldset>
+        <legend>Sign Up!</legend> 
+        <label>Name:  </label>
+        <input type="text" placeholder="Your name."/>
+        <label>Password:  </label>
+        <input type="password" placeholder="Password please."/>
+        <br>
+    <!-- 
+    ---
+    --- FORM 3 for a DROPDOWN MENU using 
+    the select tag
+    the option tag with value attributes
+    --- 
+    -->
+        <select>
+            <option value="">Select Age</option>
+            <option value="under 18">under 18</option>
+            <option value="18-59">18-59</option>
+            <option value="over 60">over 60</option>
+        </select>
+    <!-- 
+    ---
+    --- FORM 4 for RADIO input using 
+    the label tag and 
+    the the self-closing input tag with attributes type="radio" value="Male" (or Female or Other) and name="gender", closed as />)
+    --- 
+    -->  
+            <input type="radio" value="Male" name="gender"/>
+            <label>Male</label>
+            <input type="radio" value="Female" name="gender"/>
+            <label>Female</label>
+            <input type="radio" value="Other" name="gender"/>
+            <label>Other</label>
+    </fieldset>
+    <!-- ---
+    --- close the fieldset tag
+    ---  -->
+       </form>
+    </form>
+<br>
+<table border="15">
+    <thead>
+        <tr>
+            <th>Head1</th>
+            <th>Head2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">Data 11</td>
+            <!-- <td>Data 12</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">Data 21</td>
+            <td>Data 22</td>
+        </tr>
+        <tr>
+            <!-- <td>Data 31</td> -->
+            <td>Data 32</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<br><br>
+<form>
+    <fieldset>
+        <legend>Register here:</legend>
+     
+    <label>Name: </label>
+    <input type="text" placeholder="name pls"/>
+
+    <label><Password:>
+    <input type="password" placeholder="password"/>
+
+    <select>
+        <option value="1 month subscription"></option>
+        <option value="1 year subscription"></option>
+    </select>
+
+    <input type="radio" value="Male" name="gender"/>
+    <label>"Male</label>
+    <input type="radio" value="Female" name="gender"/>
+    <label>"Female</label>
+</fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table RowSpan and ColSpan Homework</title>
+  </head>
+  <body>
+    <!-- REVIEW OF TABLES
+    <table>
+      <thead>
+          <tr><th></th></tr>
+      </thead>
+      <tbody>
+          <tr><td></td></tr>
+      </tbody>
+    </table> -->
+    <table border="15">
+      <thead>
+        <tr>
+          <th>Header</th>
+          <th>Header</th>
+          <th>Header</th>
+          <th>Header</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Row1 -->
+        <tr>
+          <!-- Use the rowspan attribute if you wanted the data in a cell be the same for 1 or more rows below that 'home' cell.  -->
+          <td rowspan="4">span rows</td>
+          <!-- Use the colspan attribute if you wanted the data in a cell be the same for 1 or more rows to the right of that 'home' cell.  -->
+          <td colspan="3">span column</td>
+        </tr>
+        <!-- Row2 -->
+        <tr>
+          <td colspan="2">span column</td>
+          <td rowspan="3">span both</td>
+        </tr>
+        <!-- Row3 -->
+        <tr>
+          <td rowspan="2">span rows</td>
+          <td colspan="1">span column</td>
+        </tr>
+        <!-- Row4 -->
+        <tr>
+          <td rowspan="1">span both</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

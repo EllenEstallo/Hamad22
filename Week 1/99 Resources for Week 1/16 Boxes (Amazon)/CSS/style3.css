@@ -1,0 +1,23 @@
+h1 {
+  color: #fefefe;
+  background-color: #485768;
+}
+
+#Main {
+  /* display: inline-flex;  */
+  height: 100px;
+  width: 1000px;
+  background-color: #485768;
+}
+
+h2 {
+  color: #fefefe;
+}
+
+p {
+  color: #fefefe;
+}
+#Box1 {
+  height: 100px;
+  width: 100px;
+}
